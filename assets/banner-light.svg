@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">AI and software engineering workflow</title>
+  <desc id="desc">A sequence from product problem through system design and evaluation to a working product.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#0969da"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="258" rx="24" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+
+  <text x="60" y="48" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="600" letter-spacing="2">
+    AI / SOFTWARE ENGINEERING
+  </text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="25" font-weight="650" text-anchor="middle">
+    <rect x="55" y="78" width="230" height="82" rx="14" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
+    <text x="170" y="128" fill="#1f2328">problem</text>
+
+    <line x1="296" y1="119" x2="329" y2="119" stroke="#0969da" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="340" y="78" width="230" height="82" rx="14" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
+    <text x="455" y="128" fill="#1f2328">system</text>
+
+    <line x1="581" y1="119" x2="614" y2="119" stroke="#0969da" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="625" y="78" width="230" height="82" rx="14" fill="#ffffff" stroke="#0969da" stroke-width="2"/>
+    <text x="740" y="128" fill="#1f2328">evaluation</text>
+
+    <line x1="866" y1="119" x2="899" y2="119" stroke="#0969da" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="910" y="78" width="230" height="82" rx="14" fill="#ddf4ff" stroke="#0969da" stroke-width="2"/>
+    <text x="1025" y="128" fill="#0550ae">product</text>
+  </g>
+
+  <text x="60" y="216" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">
+    product thinking · reliable ML · end-to-end delivery
+  </text>
+</svg>
