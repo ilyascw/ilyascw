@@ -89,7 +89,7 @@ Research pipeline для первичного скрининга КТ грудн
 | --- | --- | --- |
 | [Early Retirement Risk Model](https://github.com/ilyascw/early-retirement-risk-model) | Ранжирование редкого риск-события под ограниченную ёмкость ручной проверки | PR-AUC, calibration, fairness audit, model card |
 | [Local Document Generator](https://github.com/ilyascw/local-document-generator) | Пакетная генерация юридических DOCX из локального desktop-приложения | Rust, Tauri, React, SQLite, E2E |
-| [Demand Forecasting](https://github.com/ilyascw/demand_forecasting) | Прогноз 1 782 временных рядов; CatBoost снизил WAPE примерно на 70% относительно mean baseline | Temporal validation, recursive forecast, leakage control |
+| [Demand Forecasting](https://github.com/ilyascw/demand_forecasting) | Прогноз 1 782 временных рядов; CatBoost снизил WAPE примерно на 70% относительно mean baseline | Temporal validation, leakage control, параллельный auto-SARIMA на 32-ядерной конфигурации |
 | [Road Safety Video Analyzer](https://github.com/ilyascw/traffic_violation_checker) | Приоритизация потенциально опасных эпизодов видеорегистратора | OpenCV, YOLO adapter, desktop/CLI, offline eval protocol |
 | [Car Color Detector](https://github.com/ilyascw/CarColorDetector) | Автомобиль → маска кузова → палитра доминирующих цветов | YOLOv8, Segment Anything, K-means, FastAPI, Gradio |
 | [Travel Budget Dashboard](https://github.com/ilyascw/travel-dashboard) | Бюджет, прогноз расходов и карта продолжительного путешествия | pandas, Streamlit, Plotly, Folium |
