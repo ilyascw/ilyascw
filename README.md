@@ -27,15 +27,43 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 
-Создаю прикладные AI/ML- и software-продукты. В моих проектах продуктовая
-постановка связана с архитектурой, данными, evaluation, API, интерфейсом,
-хранением, тестами и поставкой.
+Собираю прикладные AI/ML- и software-системы целиком: от продуктовой постановки
+и данных до архитектуры, API, интерфейса, evaluation, тестов и поставки.
 
-Основной интерес — системы, которые экономят время, снижают операционную нагрузку
-и дают пользователю проверяемый результат. Часть проектов выросла из моих
-собственных задач и прошла проверку в реальном использовании.
+Больше всего интересуют задачи с проверяемым результатом: экономия времени,
+снижение операционной нагрузки и работа в реальном пользовательском сценарии.
+Часть решений выросла из моих собственных задач.
 
 ## Основные проекты
+
+### [Qwen Knowledge Agent](https://github.com/ilyascw/qwen-knowledge-agent)
+
+Telegram-агент, собранный вокруг Qwen Code `0.13.1` как готового agent runtime.
+Python запускает CLI отдельным процессом, читает поток `stream-json` и возвращает
+финальный ответ пользователю.
+
+<p align="center">
+  <a href="https://github.com/ilyascw/qwen-knowledge-agent">
+    <img
+      src="https://raw.githubusercontent.com/ilyascw/qwen-knowledge-agent/main/assets/demo.gif"
+      width="360"
+      alt="Qwen Knowledge Agent: память и поиск задач Jira в Telegram"
+    />
+  </a>
+</p>
+
+- **Сценарий:** связный диалог в Telegram, долговременная память и read-only
+  поиск по Jira и Confluence.
+- **Интеграция:** `asyncio.subprocess`, параллельная обработка stdout и stderr,
+  timeout, heartbeat и логи tool calls.
+- **Состояние:** штатные Qwen sessions хранят контекст диалога, SQLite MCP —
+  устойчивые пользовательские факты.
+- **Результат:** каркас позволяет быстро проверять новые агентные сценарии,
+  меняя транспорт, инструкции и набор MCP-tools.
+- **Проверка:** end-to-end smoke-test на компактной модели `qwen3.6-35b-a3b`,
+  28 тестов, strict mypy и Ruff.
+
+`Python` · `Qwen Code` · `MCP` · `aiogram` · `SQLite` · `Docker`
 
 ### [UnitKeeper](https://github.com/ilyascw/UnitKeeperBot)
 
