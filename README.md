@@ -1,22 +1,20 @@
 # Илья Скворцов
 
-**AI / Software Engineer · Product Engineer**
+**AI Engineer · Product Engineer**
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+Моя база — ML-инженерия. Больше всего меня привлекает стык AI и продукта:
+разобраться в задаче человека, сформулировать гипотезу и увидеть её эффект в
+живом процессе.
 
-Собираю прикладные AI/ML- и software-системы целиком: от продуктовой постановки
-и данных до архитектуры, API, интерфейса, evaluation, тестов и поставки.
+Люблю исследовать агентные системы изнутри: доходить до деталей их поведения,
+понимать возможности готовых решений и находить им практическое применение.
+Техническая глубина помогает сохранять архитектуру простой и добавлять
+сложность только там, где она оправдана опытом.
 
-Больше всего интересуют задачи с проверяемым результатом: экономия времени,
-снижение операционной нагрузки и работа в реальном пользовательском сценарии.
-Часть решений выросла из моих собственных задач.
+Экспертизу наращиваю через реальные задачи: изучаю чужие реализации,
+восстанавливаю заложенные в них идеи, проверяю их руками и переношу удачные
+принципы дальше. Код помогает быстро пройти этот путь и превратить идею в
+полезный результат для пользователя.
 
 ## Основные проекты
 
@@ -95,22 +93,3 @@ Research pipeline для первичного скрининга КТ грудн
 | [Road Safety Video Analyzer](https://github.com/ilyascw/traffic_violation_checker) | Приоритизация потенциально опасных эпизодов видеорегистратора | OpenCV, YOLO adapter, desktop/CLI, offline eval protocol |
 | [Car Color Detector](https://github.com/ilyascw/CarColorDetector) | Автомобиль → маска кузова → палитра доминирующих цветов | YOLOv8, Segment Anything, K-means, FastAPI, Gradio |
 | [Travel Budget Dashboard](https://github.com/ilyascw/travel-dashboard) | Бюджет, прогноз расходов и карта продолжительного путешествия | pandas, Streamlit, Plotly, Folium |
-
-## Инженерный подход
-
-- Фиксирую пользовательскую проблему, ограничения и метрики до выбора
-  технического решения.
-- Разделяю детерминированные бизнес-правила и модельные компоненты.
-- Подбираю evaluation под риск задачи: temporal validation, PR-AUC, calibration,
-  fairness-срезы, CV-метрики и продуктовые инварианты.
-- Использую типизацию, тесты, миграции, Docker и GitHub Actions в проектах,
-  где они соответствуют эксплуатационному сценарию.
-- Публикую синтетические demo-данные; личные, клиентские и медицинские данные
-  остаются за пределами репозиториев.
-
-## Сейчас
-
-- готовлю повторное развёртывание UnitKeeper и usability-тесты с новыми
-  семейными группами;
-- развиваю agent workflow и модель стоимости времени в Local Meal Planner;
-- собираю портфолио AI/ML- и software-проектов с воспроизводимыми результатами.
