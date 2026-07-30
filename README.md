@@ -1,19 +1,3 @@
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./assets/banner-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="./assets/banner-light.svg"
-  />
-  <img
-    alt="Product problem, system design, evaluation and working product"
-    src="./assets/banner-light.svg"
-    width="100%"
-  />
-</picture>
-
 # Илья Скворцов
 
 **AI / Software Engineer · Product Engineer**
@@ -41,16 +25,6 @@
 Telegram-агент, собранный вокруг Qwen Code `0.13.1` как готового agent runtime.
 Python запускает CLI отдельным процессом, читает поток `stream-json` и возвращает
 финальный ответ пользователю.
-
-<p align="center">
-  <a href="https://github.com/ilyascw/qwen-knowledge-agent">
-    <img
-      src="https://raw.githubusercontent.com/ilyascw/qwen-knowledge-agent/main/assets/demo.gif"
-      width="360"
-      alt="Qwen Knowledge Agent: память и поиск задач Jira в Telegram"
-    />
-  </a>
-</p>
 
 - **Сценарий:** связный диалог в Telegram, долговременная память и read-only
   поиск по Jira и Confluence.
